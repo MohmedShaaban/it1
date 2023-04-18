@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.header{
+  width:100%;
+  min-height: 100vh;
+  background-image:url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701505035.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  position: relative;
+  width: 100%;
+  z-index:999;
+}
+nav img{
+  width: 80px;
+  min-height:80px;
+  border-radius: 50%;
+  transition:1s;
+}
+nav img:hover{
+  transform: rotate(360deg);
+}
+.nav_link{
+  flex:1;
+  text-align: right;
+}
+.nav_link li{
+  display: inline-block;
+  padding: 10px 15px;
+  list-style: none;
+  position: relative;
+  margin-bottom: 40px;
+}
+.nav_link li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+}
+.nav_link li a:hover{
+  color:red;
+}
+.text{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding-top: 150px;
+  color:#fff;
+}
+.text h1{
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom:20px;
+
+}
+.main_btn{
+  color:#fff;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+.main_btn:hover{
+  background: rgb(0,106,255);
+  border: rgb(0,106,255);
+  transition: 0.7s;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.content{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.course{
+  background-color: aqua;
+}
+.course_card{
+  background-color: #fff;
+  border:1px solid #fff;
+  min-height: 14em;
+ border-radius: 15px;
+ margin: 20px;
+ transition: 0.7s ease;
+
+}
+.course_card:hover{
+  transform: scale(1.1);
+}
+.course-img img{
+  width: 100%;
+
+}
+.course-inf{
+  padding: 16px;
+}
+.course-category{
+  font-size: 14px;
+  color: #000;
+}
+.course-title{
+  display:flex;
+  justify-content: space-between;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.details{
+  text-decoration: none;
+  color:blue;
+}
+.details :hover{
+  color:red;
+}
